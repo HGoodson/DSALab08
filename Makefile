@@ -20,10 +20,10 @@ all: Project
 Project: 		$(FILES)
 			$(LINK) $(EXECUTABLE) $(FILES) $(LIBS)	
 
-Maze.o:  	Maze.h Color.h Rect.h Maze.cpp
+Maze.o:  	Maze.h  Maze.cpp
 			$(COMPILE) Maze.cpp
 			
-MazeGUI.o:  MazeGUI.h Matrix.h MazeGUI.cpp
+MazeGUI.o:  MazeGUI.h MazeGUI.cpp
 			$(COMPILE) MazeGUI.cpp
 
 
